@@ -1,0 +1,9 @@
+pandas
+datasets
+transformers
+scikit-learn
+accelerate
+python-dotenv
+tqdm
+ollama
+tiktoken
