@@ -21,3 +21,4 @@ reports/figures/*
 !reports/figures/.gitkeep
 .DS_Store
 py314/
+cache/
