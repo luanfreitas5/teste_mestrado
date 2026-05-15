@@ -1,0 +1,30 @@
+Iniciando treinamento...
+
+{'eval_loss': '1.849', 'eval_accuracy': '0.75', 'eval_f1': '0.6429', 'eval_runtime': '0.2144', 'eval_samples_per_second': '93.27', 'eval_steps_per_second': '4.663', 'epoch': '1'}                                                                                                                                                                              
+Writing model shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.99it/s]
+{'eval_loss': '1.715', 'eval_accuracy': '0.75', 'eval_f1': '0.6429', 'eval_runtime': '0.2009', 'eval_samples_per_second': '99.56', 'eval_steps_per_second': '4.978', 'epoch': '2'}                                                                                                                                                                              
+Writing model shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.23it/s]
+{'eval_loss': '1.664', 'eval_accuracy': '0.75', 'eval_f1': '0.6429', 'eval_runtime': '0.2058', 'eval_samples_per_second': '97.2', 'eval_steps_per_second': '4.86', 'epoch': '3'}
+Writing model shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.31it/s]
+{'train_runtime': '16', 'train_samples_per_second': '15', 'train_steps_per_second': '0.563', 'train_loss': '1.848', 'epoch': '3'}                                               
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 9/9 [00:16<00:00,  1.78s/it]
+
+Avaliação do modelo:
+
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00, 397.26it/s]
+{'eval_loss': 1.6640104055404663, 'eval_accuracy': 0.75, 'eval_f1': 0.6428571428571428, 'eval_runtime': 0.2047, 'eval_samples_per_second': 97.716, 'eval_steps_per_second': 4.886, 'epoch': 3.0}
+Writing model shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  3.34it/s]
+
+Modelo salvo em: ./modelo_sentimentos
+
+Predições:
+
+Texto: Esse notebook é excelente!
+Sentimento: positivo
+--------------------------------------------------
+Texto: O serviço foi muito ruim.
+Sentimento: positivo
+--------------------------------------------------
+Texto: Hoje fui ao mercado.
+Sentimento: positivo
+--------------------------------------------------

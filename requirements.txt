@@ -7,3 +7,11 @@ python-dotenv
 tqdm
 ollama
 tiktoken
+torch
+torchvision
+torchaudio
+transformers
+accelerate
+datasets
+peft
+bitsandbytes
